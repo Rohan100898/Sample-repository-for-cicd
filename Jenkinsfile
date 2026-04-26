@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     stages {
-        stage('Clone Repo') {
-            steps {
-                git 'https://github.com/Rohan100898/Sample-repository-for-cicd.git'
-            }
-        }
+        // stage('Clone Repo') {
+        //     steps {
+        //         git 'https://github.com/Rohan100898/Sample-repository-for-cicd.git'
+        //     }
+        // }
 
         stage('Install Dependencies') {
             steps {
